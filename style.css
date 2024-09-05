@@ -1,0 +1,47 @@
+
+body{ 
+
+    background-color: rgb(170, 219, 252);
+    color: hwb(114 1% 69%);
+    font-family: "Baskervville SC", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    padding: 80px;
+    margin-top: 20px;
+}
+
+h1{
+    color: 
+    border-bottom: solid 2px #066124;
+    padding: 40px;
+}
+
+button{
+    background-color: rgb(100, 185, 255);
+    color:rgb(2, 41, 85) ;
+    font-family: "Anton", sans-serif; 
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{ 
+    padding: 40px;
+    text-align: center;
+    max-width: 90%;
+    margin: 0;
+}
+
+img{ 
+    padding: 0;
+    max-width: 90%;
+    border: solid 4px rgb(255, 199, 13);
+}
